@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="regform"><h1>Registration form!</h1></div>
+    <div class="main">
+      <form action="">
+        <div id="name">
+          <h2 class="name">Name:</h2>
+          <input
+            class="firstname"
+            type="text"
+            name="first_name"
+            placeholder="First name"
+          />
+          <input
+            class="lastname"
+            type="text"
+            name="last_name"
+            placeholder="Last name"
+          />
+        </div>
+        <h2 class="name">Email:</h2>
+        <input
+          class="email"
+          type="email"
+          name="email"
+          placeholder="example@yourdomain.com"
+        /><br />
+        <h2 class="name">Company:</h2>
+        <input
+          class="company"
+          type="text"
+          name="company"
+          placeholder="yourwebsite.com"
+        /><br />
+        <h2 class="name">Phone:</h2>
+        <input
+          class="code"
+          type="text"
+          name="area_code"
+          placeholder="Area code"
+        />
+        <input
+          class="phone"
+          type="text"
+          name="phone"
+          placeholder="Phone No."
+        /><br />
+        <h2 class="name">Subject:</h2>
+        <select class="option" name="subject">
+          <option disabled="disabled" selected="selected">
+            --Choose option--
+          </option>
+          <option value="">Physices</option>
+          <option value="">Chemistry</option>
+          <option value="">Maths</option>
+          <option value="">Biology</option>
+        </select>
+        <div class="buttonalign">
+          <div>
+            <h2 class="student">Are you beginner?</h2>
+            <label class="radio">
+              <input type="radio" name="" />
+              <span class="checkmark"></span>
+              Yes
+            </label>
+            <label class="radio">
+              <input type="radio" name="" />
+              <span class="checkmark"></span>
+              No
+            </label>
+          </div>
+          <button type="submit">Register</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
