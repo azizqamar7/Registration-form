@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(bg01.webp);
+  background-position: 0px -200px;
+  background-size: cover;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+.regform {
+  width: 800px;
+  background-color: rgb(240, 248, 255, 0.5);
+  margin: auto;
+  color: black;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+  box-shadow: 0px -2px 10px rgb(37, 37, 37);
+}
+
+.main {
+  background-color: rgb(240, 248, 255, 0.5);
+  width: 800px;
+  margin: auto;
+  box-shadow: 0px 2px 10px rgb(37, 37, 37);
+  border-radius: 0px 0px 15px 15px;
+}
+
+form {
+  padding: 10px;
+}
+
+#name {
+  width: 100px;
+  height: 100px;
+}
+
+.name {
+  margin-left: 25px;
+  margin-top: 30px;
+  width: 125px;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 700px;
+}
+
+.firstname {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.lastname {
+  position: relative;
+  left: 500px;
+  top: -81px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+.company {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 500px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+.email {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 500px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+.code {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 200px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+.phone {
+  position: relative;
+  left: 252px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+.option {
+  position: relative;
+  left: 203px;
+  top: -37px;
+  line-height: 40px;
+  width: 544px;
+  height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+  overflow: hidden;
+}
+
+.student {
+  margin-left: 25px;
+  color: white;
+  font-size: 18px;
+}
+
+.radio {
+  display: inline-block;
+  padding-right: 70px;
+  font-size: 25px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.radio input {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+}
+
+.buttonalign {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  background-color: teal;
+  display: block;
+  margin: 20px 0px 0px 20px;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 14px 110px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.25px;
+}
+
+button:hover {
+  background-color: yellowgreen;
+}
